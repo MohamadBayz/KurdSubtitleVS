@@ -29,7 +29,7 @@ async def media_receive_handler(_, m: Message):
     short_link = f"{Var.URL}{get_hash(log_msg)}{log_msg.message_id}"
     logging.info(f"Generated link: {stream_link} for {m.from_user.first_name}")
     await m.reply_text(
-        text="<code>{}</code>\n(<a href='{}'>بەستەری قەدبر</a>)".format(
+        text="<code>{}</code>\n(<a href='{}'>بەستەری قەدبڕ</a>)".format(
             stream_link, short_link
         ),
         quote=True,
