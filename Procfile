@@ -1,2 +1,1 @@
-web: python -m KSBVS
- 
+web: python -m Ksbvs
